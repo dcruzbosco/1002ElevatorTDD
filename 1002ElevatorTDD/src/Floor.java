@@ -13,6 +13,6 @@ public class Floor {
 	}
 
 	public void callElevator() {
-		elevator.callElevator(floorNumber);
+		elevator.callElevator(floorNumber, this);
 	}
 }
